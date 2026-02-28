@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Menu - Maze Bank Of Los Santos - Alke Wallet</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <!-- NAVBAR PRINCIPAL -->
+
+    <nav class="navbar custom-navbar">
+        <div class="navbar-wrapper">
+
+            <!-- IZQUIERDA -->
+            <div class="nav-left">
+                <img src="assets/img/logo.png" class="nav-logo" alt="Logo">
+                <span class="nav-title">Alke Wallet</span>
+            </div>
+
+            <!-- CENTRO -->
+            <ul class="nav-center">
+                 <li><a id="btnNavMenu" href="#">Menú Principal</a></li>
+                <li><a id="btnNavDeposit" href="#">Depositar</a></li>
+                <li><a id="btnNavSendMoney" href="#">Transferencia a un Tercero</a></li>
+                <li><a id="btnNavTransactions" href="#">Historial de Transacciones</a></li>
+            </ul>
+
+            <!-- DERECHA -->
+            <button id="btnLogout" class="btn btn-danger btn-sm">Cerrar sesión</button>
+
+        </div>
+    </nav>
+    <div class="container mt-4">
+
+        <div class="card p-3 mb-3">
+            <h4>Saldo disponible:</h4>
+            <h2 id="saldo">$0</h2>
+        </div>
+
+    </div>
+
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+</body>
+
+</html>
