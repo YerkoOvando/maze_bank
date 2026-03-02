@@ -83,7 +83,8 @@ $(document).ready(function () {
 
         if (monto <= saldo && monto > 0 && destino !== "") {
             saldo -= monto;
-            actualizar("Envío a " + destino, monto);
+            actualizar("Envío a " + destino, monto)
+            alert("Transferencia realizada con éxito");
         }
 
     });
