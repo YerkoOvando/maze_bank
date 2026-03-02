@@ -16,7 +16,7 @@ $(document).ready(function () {
         let userLogin = $("#userLogin").val();
         let passLogin = $("#passLogin").val();
 
-        if (userLogin === "20401789-1" && passLogin === "1234") {
+        if (userLogin === "20401789-1" or "20594963-1" && passLogin === "1234") {
             localStorage.setItem("login", "true");
             window.location.href = "menu.html";
         } else {
