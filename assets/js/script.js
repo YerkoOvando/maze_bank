@@ -28,7 +28,7 @@ $(document).ready(function () {
     // ---------- LOGOUT ----------
     $("#btnLogout").click(function () {
         localStorage.removeItem("login");
-        window.location.href = "login.html";
+        window.location.href = "index.html";
     });
 
     // --------FUNCIONES NAVBAR----------
@@ -54,7 +54,7 @@ $(document).ready(function () {
     // ---------- SEGURIDAD ----------
     if (window.location.pathname.includes("menu.html")) {
         if (localStorage.getItem("login") !== "true") {
-            window.location.href = "login.html";
+            window.location.href = "index.html";
         }
     }
 
